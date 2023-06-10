@@ -113,7 +113,7 @@ def close():
     tk.quit()
 
 
-open_button = Button(imageFrame, text="Import file", command=open_file)
+open_button = Button(imageFrame, text="Image", command=open_file)
 open_button.grid(row=100, column=0)
 tk.protocol('WM_DELETE_WINDOW', close)
 
